@@ -1,0 +1,96 @@
+{
+  "array": {
+    "after_comma_spacing": "spaced",
+    "empty_spacing": "spaced",
+    "multiline": {
+      "element_count": 8,
+      "leading_comma": false
+    },
+    "padding_inside": "spaced"
+  },
+  "binary_operators": {
+    "format_assignment_operator": true,
+    "padding": "spaced",
+    "padding_strip_newlines": false
+  },
+  "blocks": {
+    "after_block_spacing": null,
+    "empty_spacing": "newline",
+    "end_spacing": "newline",
+    "start_spacing": "newline"
+  },
+  "brackets": {
+    "padding": "spaced",
+    "padding_strip_newlines": true
+  },
+  "default_commands": [
+    "whitespace",
+    "keywords",
+    "blocks",
+    "delimited_scopes",
+    "method_chains"
+  ],
+  "for_loop_semicolons": {
+    "padding": "spaced"
+  },
+  "format_properties": {
+    "sort_by_name": true
+  },
+  "function_call": {
+    "after_comma_spacing": "spaced",
+    "empty_spacing": "spaced",
+    "multiline": {
+      "break_after_first_element": false,
+      "element_count": 8,
+      "leading_comma": false
+    },
+    "padding_inside": "spaced"
+  },
+  "function_declaration": {
+    "after_comma_spacing": "spaced",
+    "empty_spacing": "spaced",
+    "group_to_block_spacing": "spaced",
+    "multiline": {
+      "element_count": 8,
+      "leading_comma": false
+    },
+    "padding_inside": "spaced",
+    "spacing_to_group": "compact"
+  },
+  "keywords": {
+    "block_to_keyword_spacing": "spaced",
+    "empty_group_spacing": "compact",
+    "group_to_block_spacing": "spaced",
+    "padding_inside_group": "spaced",
+    "padding_strip_newlines": false,
+    "spacing_to_block": "spaced",
+    "spacing_to_group": "spaced",
+    "to_keyword_spacing": null
+  },
+  "log_command_times": false,
+  "method_chains": {
+    "break_after": 2,
+    "inline": 1
+  },
+  "normalize_builtin_functions": "cfdocs",
+  "normalize_strings": {
+    "script": "single",
+    "script-tag-attributes": "double"
+  },
+  "parentheses": {
+    "padding": "spaced",
+    "padding_strip_newlines": false
+  },
+  "singleline_max_col": 160,
+  "struct": {
+    "after_comma_spacing": "spaced",
+    "empty_spacing": "spaced",
+    "key_value_colon": "spaced",
+    "key_value_equals": "spaced",
+    "multiline": {
+      "element_count": 2,
+      "leading_comma": false
+    },
+    "padding_inside": "spaced"
+  }
+}

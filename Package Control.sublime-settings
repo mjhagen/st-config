@@ -1,0 +1,32 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Boxy Theme",
+		"CFML",
+		"FontCycler",
+		"Generic Config",
+		"HTML-CSS-JS Prettify",
+		"Indent XML",
+		"Markdown Preview",
+		"MarkdownEditing",
+		"Package Control",
+		"Pretty JSON",
+		"SFTP",
+		"SideBarEnhancements",
+		"SqlBeautifier",
+		"SublimeLog",
+		"Table Editor",
+		"Terminal",
+		"TortoiseSVN",
+		"VBScript",
+		"View In Browser"
+	],
+	"repositories":
+	[
+		"https://github.com/titoBouzout/SideBarEnhancements/tree/st3"
+	]
+}
