@@ -7,8 +7,9 @@
 	[
 		"Boxy Theme",
 		"CFML",
+		"ColorHelper",
 		"FontCycler",
-		"Generic Config",
+		"Git",
 		"HTML-CSS-JS Prettify",
 		"Indent XML",
 		"Markdown Preview",
@@ -18,9 +19,6 @@
 		"SFTP",
 		"SideBarEnhancements",
 		"SqlBeautifier",
-		"SublimeLog",
-		"Table Editor",
-		"Terminal",
 		"TortoiseSVN",
 		"VBScript",
 		"View In Browser"

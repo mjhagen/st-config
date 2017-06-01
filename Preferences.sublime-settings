@@ -23,14 +23,14 @@
 	"caret_extra_top": 1,
 	"caret_extra_width": 1,
 	"caret_style": "phase",
-	"color_scheme": "Packages/Boxy Theme/schemes/Boxy Monokai.tmTheme",
+	"color_scheme": "Packages/Boxy Theme/schemes/Boxy Ocean.tmTheme",
 	"detect_indentation": false,
-	"dictionary": "Packages/Language - English/en_US.dic",
+	"dictionary": "Packages/User/nl_NL.dic",
 	"draw_minimap_border": true,
 	"fade_fold_buttons": false,
 	"find_selected_text": true,
-	"font_face": "Iosevka",
-	"font_size": 11,
+	"font_face": "Envy Code R",
+	"font_size": 10,
 	"fonts_list":
 	[
 		{
@@ -57,17 +57,24 @@
 		},
 		{
 			"font_face": "InputMono",
-			"font_size": 10,
-			"line_padding_bottom": 1,
-			"line_padding_top": 1
+			"font_size": 12,
+			"line_padding_bottom": 3,
+			"line_padding_top": 3
 		},
 		{
 			"font_face": "Iosevka",
 			"font_size": 10,
 			"line_padding_bottom": 1,
 			"line_padding_top": 1
+		},
+		{
+			"font_face": "Iosevka",
+			"font_size": 13,
+			"line_padding_bottom": 1,
+			"line_padding_top": 1
 		}
 	],
+	"fw1_enabled": true,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -94,9 +101,10 @@
 	"scroll_speed": 0,
 	"show_definitions": false,
 	"show_encoding": true,
+	"show_full_path": true,
 	"tab_completion": false,
 	"tab_size": 2,
-	"theme": "Boxy Monokai.sublime-theme",
+	"theme": "Boxy Ocean.sublime-theme",
 	"theme_dirty_accent_blue": true,
 	"theme_font_sm": true,
 	"theme_icons_atomized": true,
@@ -112,6 +120,6 @@
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"use_tab_stops": true,
-	"wide_caret": true,
+	"wide_caret": false,
 	"word_wrap": false
 }

@@ -2,23 +2,23 @@
   { "keys": ["shift+alt+f"], "command": "cfml_format" },
   { "keys": ["ctrl+shift+alt+f"], "command": "cfml_format_menu" },
 
-  { "keys": ["ctrl+alt+left"],  "command": "fold" },
-  { "keys": ["ctrl+alt+right"], "command": "unfold" },
-  { "keys": ["ctrl+alt+up"],    "command": "fold_all" },
-  { "keys": ["ctrl+alt+down"],  "command": "unfold_all" },
+  { "keys": ["ctrl+super+left"],  "command": "fold" },
+  { "keys": ["ctrl+super+right"], "command": "unfold" },
+  { "keys": ["ctrl+super+up"],    "command": "fold_all" },
+  { "keys": ["ctrl+super+down"],  "command": "unfold_all" },
   { "keys": ["ctrl+tab"],       "command": "next_view" },
   { "keys": ["ctrl+shift+tab"], "command": "prev_view" },
   { "keys": ["ctrl+comma"],     "command": "open_file", "args": { "file": "${packages}/User/Preferences.sublime-settings" }},
   {
-    "keys"    : ["ctrl+alt+d"],
+    "keys"    : ["ctrl+super+d"],
     "command" : "insert_snippet", "args": { "contents"  : "console.log( $SELECTION );" },
     "context" : [{ "key": "selector", "operator": "equal", "operand": "source.js" }]
   },
   {
-    "keys"    : ["ctrl+shift+space"],
+    "keys"    : ["super+shift+space"],
     "command" : "insert_snippet", "args": { "contents"  : "&nbsp;" },
     "context" : [{ "key": "selector", "operator": "equal", "operand": "text.html" }]
   },
-  { "keys": ["ctrl+shift+comma"], "command": "previous_font" },
-  { "keys": ["ctrl+shift+period"], "command": "next_font" },
+  { "keys": ["super+shift+comma"], "command": "previous_font" },
+  { "keys": ["super+shift+period"], "command": "next_font" },
 ]
